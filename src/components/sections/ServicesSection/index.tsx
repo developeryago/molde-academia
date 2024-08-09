@@ -6,7 +6,7 @@ import ServiceCards from '../../ServiceCards';
 export const ServicesSection = () => {
   return (
     <Container id='Service'>
-      <Title title='Nossos serviços' subtitle='Nós proporcionamos tudo o que os nossos clientes precisam'/>
+      <Title title='What we ruined for you?' subtitle='We are known for beautiful design solutions, excellent craftsmanship and exceptional customer service'/>
       <Grid>
         <ServiceCards />
       </Grid>

@@ -6,7 +6,7 @@ export const Container = styled.div`
   min-height: 43.6rem;
   padding: 4rem 3rem;
   border-radius: 1.2rem;
-  background: ${({theme}) => theme.colors.dark100};
+  background: ${({theme}) => theme.colors.light100};
   position: relative;
 `;
 
@@ -27,7 +27,7 @@ export const TextContent = styled.div`
     font-size: var(--lg);
     font-weight: 400;
     line-height: 1.6;
-    color: ${({theme}) => theme.colors.gray100};
+    color: ${({theme}) => theme.colors.dark200};
   }
 `;
 

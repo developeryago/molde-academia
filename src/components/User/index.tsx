@@ -22,7 +22,7 @@ const User = ({onClick}: UserProps) => {
       {!loadingAuth && !signed &&
         <Container>
           <Link to='/login'>
-            <UserIcon fill='transparent'/>
+            
           </Link>
         </Container>
       }

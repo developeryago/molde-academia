@@ -50,13 +50,13 @@ const Header = () => {
         <Logo />
 
         <ul className={active ? 'navbar' : 'navbar close'}>
-          <Links onClick={() => handleNavigate('/')} href='#'>Início</Links>
-          <Links onClick={() => handleNavigate('/')} href='#Service'>Serviços</Links>
+          <Links onClick={() => handleNavigate('/')} href='#'>Home</Links>
+          <Links onClick={() => handleNavigate('/')} href='#Service'>Services</Links>
           <Links onClick={() => handleNavigate('/')} href='#Modalities'>Modalidades</Links>
           <Links onClick={() => handleNavigate('/')} href='#Personal'>Personais</Links>
           <Links onClick={() => handleNavigate('/')} href='#Avaliations'>Avaliações</Links>
           <Links onClick={() => handleNavigate('/')} href='#Plans'>Planos</Links>
-          <Links onClick={() => handleNavigate('/')} href='#Questions'>Contatos</Links>
+          <Links onClick={() => handleNavigate('/')} href='#Questions'>Contact</Links>
         </ul>
 
         <RightContainer>

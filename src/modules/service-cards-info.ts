@@ -1,17 +1,17 @@
 export const serviceCardsInfo = [
   {
     image:  '/assets/Service01.svg',
-    title: 'Planos de Treino',
-    description: 'Nós fazemos a avaliação com bioimpedância, uma tecnologia de ponta para montarmos o seu plano ideal. Dieta e treino no mesmo pacote.',
+    title: 'Plan with us',
+    description: 'We are the designer, builder and project managers, we meet with you to understand your needs and goals for your home improvement project',
   },
   {
     image:  '/assets/Service02.svg',
-    title: 'Fisioterapia',
-    description: 'Temos fisioterapeutas para te auxiliar e te dar uma maior segurança, para que você tenha treinos de alta performance sem riscos de lesôes.',
+    title: 'Large-scale kitchens',
+    description: 'Is important that the kitchen is functional and comfortable, choose the kitchen that is designed and manufactured to meet your needs',
   },
   {
     image:  '/assets/Service03.svg',
-    title: 'Personal Trainer',
-    description: 'Acompanhamento com um personal trainer experiente, para auxiliar  em todo período de treino e te ajudar com os resultados',
+    title: 'Have your primary suite',
+    description: "Show us what your dream primary suite looks like, and we'll work hard to make your dream come true at a fair price.",
   },
 ]

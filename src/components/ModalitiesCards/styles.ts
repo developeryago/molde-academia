@@ -12,6 +12,7 @@ export const Container = styled.div`
   height: 100%;
   padding: 0 max(calc((100% - 120rem) / 2), 2rem);
   
+  
   &:nth-child(even){
     flex-direction: row-reverse;
     align-items: end;

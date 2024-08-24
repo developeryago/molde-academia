@@ -5,7 +5,7 @@ import { Container } from './styles';
 export const FeedbacksSection = () => {
   return (
     <Container>
-      <Title title='Nossos clientes' subtitle='O que nossos clientes acham do nosso trabalho'/>
+      <Title title='Our customers' subtitle='What our clients think of our work'/>
 
       <FeedbacksCard />
     </Container>

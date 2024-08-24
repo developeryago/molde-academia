@@ -5,7 +5,7 @@ import { Container } from './styles';
 export const QuestionsSection = () => {
   return (
     <Container id='Questions'>
-      <Title title='Fale com a gente' subtitle='Mande suas críticas ou suas dúvidas, estamos aqui para te ajudar'/>
+      <Title title='Contact us' subtitle="Tell us about what you want to design and we'll get in touch"/>
 
       <Form />
     </Container>

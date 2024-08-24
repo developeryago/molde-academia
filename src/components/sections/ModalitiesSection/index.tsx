@@ -16,7 +16,7 @@ export const ModalitiesSection = () => {
           image='/images/Cozinha.png'
           title='Large kitchens '
           emphasis='Specials'
-          description='O Bike Indoor ou Spinning é um exercício cardiovascular em bicicletas estacionárias, simulando pedal ao ar livre. Aulas em grupo, treinos intervalados e resistência ajustável são características-chave. Popular para melhorar resistência física.'
+          description='Large-scale kitchens guarantee maximum functionality for every square meter of the room and are designed to meet your needs, creating your meals and interacting with important people.Our role is to create an environment that facilitates movement for all family members.'
         />
         <ModalitiesCards 
           image='/images/Staircase.png'
@@ -27,7 +27,7 @@ export const ModalitiesSection = () => {
         />
         <div className='btn-container'>
           <Button href='#' border={true} onClick={() => navigate('/modalities', {replace: true})}>
-            Ver todas modalidades
+            View More
           </Button>
         </div>
       </ModalitiesContainer>

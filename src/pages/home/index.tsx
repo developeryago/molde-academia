@@ -8,8 +8,6 @@ const Hero = () => {
       <Section.ServicesSection />
       <Section.ModalitiesSection />
       <Section.PersonalSection />
-      <Section.AvaliationSection />
-      <Section.PlansSection />
       <Section.FeedbacksSection />
       <Section.QuestionsSection />
     </Container>

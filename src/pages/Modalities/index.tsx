@@ -2,6 +2,7 @@ import ModalitiesCards from '../../components/ModalitiesCards';
 import { Title } from '../../components/Title';
 import { modalitiesInfoOne } from '../../modules/modalities-info';
 import { Container } from './styles';
+import * as Section from '../../components/sections';
 
 const Modalities = () => {
   return (
@@ -18,6 +19,8 @@ const Modalities = () => {
           key={item.id}
         />
       )}
+
+      <Section.QuestionsSection />
     </Container>
   )
 }

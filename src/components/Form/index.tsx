@@ -11,6 +11,7 @@ export default function Form() {
   const [dataForm, setDataForm] = useState({
     name: '',
     email: '',
+    phone: '',
     message: '',
   });
 
@@ -21,7 +22,7 @@ export default function Form() {
   async function sendEmail(event: FormEvent){
     event.preventDefault();
     setLoading(true)
-    toast.success('Mensagem enviada com sucesso', {
+    toast.success('Message sent successfully', {
       icon: false,
     })
 
@@ -38,20 +39,20 @@ export default function Form() {
 
   return (
     <Container>
-      <h3>Preencha com seus dados</h3>
+      <h3>Fill in your details</h3>
 
       <form action="post" autoComplete="off" onSubmit={sendEmail} ref={formRef}>
         <label htmlFor="name">Name</label>
         <input type="name" name="name" id="name" required onChange={handleChangeValue} />
         <label htmlFor="email">Email</label>
         <input type="email" name="email" id="email" required onChange={handleChangeValue} />
-        <label htmlFor="telefone">Telefone</label>
+        <label htmlFor="telefone">Phone</label>
         <input type="telefone" name="telefone" id="telefone" required onChange={handleChangeValue} />
-        <label htmlFor="text">Mensagem</label>
+        <label htmlFor="text">Message</label>
         <input type="message" name="message" id="message" required onChange={handleChangeValue} />
         {loading ? 
-          <button type="submit" disabled={true} className='submitBtn'>Enviando...</button> : 
-          <button type="submit" className='submitBtn'>Enviar</button>
+          <button type="submit" disabled={true} className='submitBtn'>Sending...</button> : 
+          <button type="submit" className='submitBtn'>Submit</button>
         }
       </form>
     </Container>

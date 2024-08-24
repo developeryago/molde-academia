@@ -53,7 +53,7 @@ const Header = () => {
           <Links onClick={() => handleNavigate('/')} href='#'>Home</Links>
           <Links onClick={() => handleNavigate('/')} href='#Service'>Services</Links>
           <Links onClick={() => handleNavigate('/')} href='#Modalities'>Modalidades</Links>
-          <Links onClick={() => handleNavigate('/')} href='#Personal'>Personais</Links>
+          <Links onClick={() => handleNavigate('/')} href='#Personal'>About Us</Links>
           <Links onClick={() => handleNavigate('/')} href='#Avaliations'>Avaliações</Links>
           <Links onClick={() => handleNavigate('/')} href='#Plans'>Planos</Links>
           <Links onClick={() => handleNavigate('/')} href='#Questions'>Contact</Links>

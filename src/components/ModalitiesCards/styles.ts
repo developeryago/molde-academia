@@ -45,6 +45,7 @@ export const TextContainer = styled.div<ModalitiesProps>`
     width: 52rem;
     min-height: 40rem;
     position: relative;
+    padding: 1rem;
     
     h4, b{
       font-size: var(--3xl);

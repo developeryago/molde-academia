@@ -1,50 +1,34 @@
 export const modalitiesInfoOne = [
   {
     id: 1,
-    image: '/images/BikeIndoor.png',
-    title: 'bike indoor',
-    emphasis: 'class',
-    description: 'O Bike Indoor ou Spinning é um exercício cardiovascular em bicicletas estacionárias, simulando pedal ao ar livre. Aulas em grupo, treinos intervalados e resistência ajustável são características-chave. Popular para melhorar resistência física.',
+    image: '/images/Cozinha.png',
+    title: 'Large kitchens',
+    emphasis: 'Specials',
+    description: 'Large-scale kitchens guarantee maximum functionality for every square meter of the room and are designed to meet your needs, creating your meals and interacting with important people.Our role is to create an environment that facilitates movement for all family members.',
     alingEnd: true
   },
   {
     id: 2,
-    image: '/images/Bodybuilder2.png',
-    title: 'Musculação',
-    emphasis: 'XHealth',
-    description: 'Musculação é um exercício de força com pesos ou máquinas para fortalecer músculos, melhorar a aparência, a saúde e aprimorar a composição corporal.',
+    image: '/images/Staircase.png',
+    title: 'Staircase',
+    emphasis: 'triple H',
+    description: 'Staircases constitute a non-mechanical means of vertical circulation that allows connections between planes at different levels. Here at Triple H we make moving between environments practical and functional, come and see our work',
     alingEnd: '',
   },
   {
     id: 3,
-    image: '/images/Fight.png',
-    title: 'Muay Thai',
-    emphasis: 'class',
-    description: 'Muay Thai melhora a coordenação motora, queima calorias, aumenta a confiança, ensina autodefesa e proporciona alívio do estresse. Excelente para o corpo em geral.',
+    image: '/images/WoodenDeck.png',
+    title: 'Wooden Decks',
+    emphasis: 'With class',
+    description: 'Wooden decks are platforms made from wooden planks that can be used outdoors, such as to surround swimming pools, jacuzzis or hot tubs. They can be used to place chairs and enjoy the outdoors, or as a space to sunbathe or rest.',
     alingEnd: true
   },
   {
     id: 4,
-    image: '/images/Jump.png',
-    title: 'Jump',
-    emphasis: 'class',
-    description: 'Jump é um exercício aeróbico realizado em um trampolim. Melhora o condicionamento, queima calorias, fortalece músculos e proporciona benefícios emocionais. Consulte um profissional de saúde antes de começar.',
+    image: '/images/PrimarySuite.png',
+    title: 'Primary Suites',
+    emphasis: 'Comfort and luxury',
+    description: 'It is designed to be a refuge for the occupants, it can be decorated and equipped according to the style and specific needs of the couple or person occupying the space. A primary suite offers comfort, privacy and enhanced features that go beyond those found in common rooms, being a space designed for the well-being and convenience of its occupants.',
     alingEnd: '',
-  },
-  {
-    id: 5,
-    image: '/images/Zumba.png',
-    title: 'Zumba',
-    emphasis: 'class',
-    description: 'Zumba é uma atividade aeróbica divertida que combina dança com música animada. Melhora o condicionamento, queima calorias e promove bem-estar. Adequada para todas as idades. Consulte um profissional de saúde antes de começar.',
-    alingEnd: true
-  },
-  {
-    id: 6,
-    image: '/images/Functional.png',
-    title: 'Funcional',
-    emphasis: 'XHealth',
-    description: 'Treinamento Funcional: Exercícios com movimentos naturais para melhorar força, flexibilidade e equilíbrio. Adapta-se a diferentes níveis de condicionamento e beneficia a funcionalidade do corpo. Consulte um profissional de saúde antes de iniciar.',
-    alingEnd: '',
-  },
+  }
 ]

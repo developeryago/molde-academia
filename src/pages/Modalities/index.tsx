@@ -6,7 +6,7 @@ import { Container } from './styles';
 const Modalities = () => {
   return (
     <Container>
-      <Title title='Todas nossas modalidades' subtitle='As melhores aulas e de todos os tipos para você ter resultados rapidamente' />
+      <Title title='All our specialties' subtitle='Be surprised by what we can offer you' />
 
       {modalitiesInfoOne.map((item) => 
         <ModalitiesCards 

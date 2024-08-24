@@ -9,20 +9,20 @@ export const ModalitiesSection = () => {
 
   return (
     <Container id='Modalities'>
-      <Title title='Modalidades' subtitle='As modalidades que mais geram resultados'/>
+      <Title title='Modalities' subtitle='We have the best service options to meet and exceed your expectations'/>
       
       <ModalitiesContainer>
         <ModalitiesCards 
-          image='/images/BikeIndoor.png'
-          title='BIKE INDOOR'
-          emphasis='CLASS'
+          image='/images/Cozinha.png'
+          title='Large kitchens '
+          emphasis='Specials'
           description='O Bike Indoor ou Spinning é um exercício cardiovascular em bicicletas estacionárias, simulando pedal ao ar livre. Aulas em grupo, treinos intervalados e resistência ajustável são características-chave. Popular para melhorar resistência física.'
         />
         <ModalitiesCards 
-          image='/images/Bodybuilder2.png'
-          title='MUSCULAÇÃO'
-          emphasis='XHEALTH'
-          description='Musculação é um exercício de força com pesos ou máquinas para fortalecer músculos, melhorar a aparência, a saúde e aprimorar a composição corporal.'
+          image='/images/Staircase.png'
+          title='Staircase'
+          emphasis='Triple H'
+          description='Staircases constitute a non-mechanical means of vertical circulation that allows connections between planes at different levels. Here at Triple H we make moving between environments practical and functional, come and see our work'
           alingend={true}
         />
         <div className='btn-container'>

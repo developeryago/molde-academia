@@ -1,4 +1,5 @@
 import { Button } from '../Button';
+import Form from '../Form';
 import { Container, TextContainer, Mask } from './styles';
 
 export type ModalitiesProps = {
@@ -20,10 +21,11 @@ const ModalitiesCards = ({image, title, emphasis, description, alingend}: Modali
         <p>
           {description}
         </p>
-        <Button href='#' border={true}>Horários</Button>
+        <Button href='#Questions' border={true}>Contact now</Button>
       </TextContainer>
     </Container>
   )
 }
+<Form />
 
 export default ModalitiesCards;

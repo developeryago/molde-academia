@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.li`
 a{
   font-size: var(--lg);
-  font-weight: 500;
+  font-weight: bold;
   color: ${({theme}) => theme.colors.light};
   position: relative;
 

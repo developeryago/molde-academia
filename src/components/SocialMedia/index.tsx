@@ -1,5 +1,5 @@
 import { Container } from './styles';
-import { FacebookIcon, InstagramIcon, SpotifyIcon, YoutubeIcon } from '../CustomIcons/SocialIcons';
+import { FacebookIcon, InstagramIcon, SpotifyIcon } from '../CustomIcons/SocialIcons';
 
 
 export function SocialMedia() {
@@ -13,9 +13,6 @@ export function SocialMedia() {
       </a>
       <a href='#'>
         <SpotifyIcon />
-      </a>
-      <a href='#'>
-        <YoutubeIcon />
       </a>
     </Container>
   );

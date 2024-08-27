@@ -8,7 +8,7 @@ const HeroTitle = () => {
         <h1>
           Building your <br />
           visions <br />
-          <b>Constructing reality.</b>
+          <b>Constructing reality</b>
         </h1>
         
         <ButtonContainer>

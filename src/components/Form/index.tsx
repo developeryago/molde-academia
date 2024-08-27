@@ -9,10 +9,10 @@ export default function Form() {
   const formRef = useRef<HTMLFormElement>(null)
   const [loading, setLoading] = useState(false)
   const [dataForm, setDataForm] = useState({
-    name: '',
+    from_name: '',
+    message: '',
     email: '',
     phone: '',
-    message: '',
   });
 
   const handleChangeValue = ({currentTarget}: {currentTarget: HTMLInputElement}) => {
@@ -26,9 +26,9 @@ export default function Form() {
       icon: false,
     })
 
-    await emailjs.send('service_47t0keg', 'template_rgqho2i', dataForm, 'CVXQlpJ8y3ni4Rsms')
+    await emailjs.send('service_u70hdr3', 'template_e764svr', dataForm, 'eT23yOHtoJJV5rCyH')
     .then(() => {
-
+  
       setLoading(false)
     })
     
@@ -47,7 +47,7 @@ export default function Form() {
         <label htmlFor="email">Email</label>
         <input type="email" name="email" id="email" required onChange={handleChangeValue} />
         <label htmlFor="telefone">Phone</label>
-        <input type="telefone" name="telefone" id="telefone" required onChange={handleChangeValue} />
+        <input type="telefone" name="phone" id="phone" required onChange={handleChangeValue} />
         <label htmlFor="text">Message</label>
         <input type="message" name="message" id="message" required onChange={handleChangeValue} />
         {loading ? 

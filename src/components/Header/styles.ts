@@ -18,7 +18,7 @@ export const HeaderContainer = styled.header`
   
   @media (max-width: 64rem) {
     &.bgDark{
-      background: ${({theme}) => theme.colors.gray200};
+      background: ${({theme}) => theme.colors.dark200};
     }
     
     nav{
@@ -31,7 +31,7 @@ export const HeaderContainer = styled.header`
         top: 10rem;
         left: 0;
         padding: 4rem;
-        background: ${({theme}) => theme.colors.gray200};
+        background: ${({theme}) => theme.colors.dark200};
         border-bottom: 0.1rem solid ${({theme}) => theme.colors.primary};
         z-index: 1000;
       }

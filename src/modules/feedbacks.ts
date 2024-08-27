@@ -1,7 +1,7 @@
 export const feedbacks = [
   {
     description: 'Door removed and wall put up and window replaced. Wisllen has done some work in my home, including removing an exterior door and putting up a floor to ceiling wall and replacing a window. His attention to detail really stands out. He takes his time and makes sure that each step is perfect before moving on. When putting up the wall - he faced some exterior challenges with the siding - however, it looks so good, you would NEVER know a door was there for 50 years! I highly recommend Wisllen and will be using him for further renovations - he really does exceptional, quality work!',
-    name: 'Stephanie Sousa',
+    name: 'Rebecca Carroll',
     stars: 5,
   },
   {

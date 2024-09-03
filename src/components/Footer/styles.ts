@@ -6,7 +6,7 @@ export const Container = styled.div`
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 2rem max(calc((100% - 144rem) / 2), 2rem);
-  background: ${({theme}) => theme.colors.light100};
+  background: ${({theme}) => theme.colors.secundaryGradient};
 
   p{
     font-size: var(--lg);

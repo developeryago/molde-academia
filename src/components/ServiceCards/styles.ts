@@ -6,7 +6,7 @@ export const Container = styled.div`
   min-height: 43.6rem;
   padding: 4rem 3rem;
   border-radius: 1.2rem;
-  background: ${({theme}) => theme.colors.light100};
+  background: ${({theme}) => theme.colors.primaryGradient};
   position: relative;
 `;
 

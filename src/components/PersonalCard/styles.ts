@@ -45,6 +45,7 @@ export const NameContainer = styled.div`
     text-transform: capitalize;
     text-align: center;
     color: ${({theme}) => theme.colors.gray200};
+    padding: 3rem;
   }
 `;
 
@@ -74,6 +75,7 @@ export const Carousel = styled.div`
 export const CarouselContainer = styled.div`
   width: 115.2rem;
   position: relative;
+  padding: 2rem;
 
   .btn-container{
     .preview, .next{

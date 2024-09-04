@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { FlexCSS } from '../../styles/mixins';
+import { theme } from '../../styles/theme';
 
 export const Container = styled.div`
   ${FlexCSS}
@@ -11,8 +12,15 @@ export const Container = styled.div`
   p{
     font-size: var(--lg);
     text-align: center;
-    color: ${({theme}) => theme.colors.gray100};
+    color: ${({theme}) => theme.colors.gray200};
     cursor: pointer;
+  }
+
+  span{
+    color: ${({theme}) => theme.colors.primary};
+    font-size: var(--1g);
+    font-weight: 900;
+    font-style: italic
   }
 
   @media (max-width: 48rem) {

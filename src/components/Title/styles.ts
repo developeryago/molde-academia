@@ -10,7 +10,7 @@ export const Container = styled.div`
 
   h2{
     font-size: var(--4xl);
-    font-weight: 900;
+    font-weight: 600;
     text-transform: uppercase;
     color: ${({theme}) => theme.colors.light};
   }

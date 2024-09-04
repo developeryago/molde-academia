@@ -54,7 +54,7 @@ export const TextContainer = styled.div<ModalitiesProps>`
       color: ${theme.colors.light};
 
       b{
-        color: ${theme.colors.primary};
+        color: ${theme.colors.gray200};
       }
     }
 

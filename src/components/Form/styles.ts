@@ -40,8 +40,8 @@ export const Container = styled.div`
         font-size: var(--base);
         font-weight: 700;
         text-transform: uppercase;
-        background: ${theme.colors.primary};
-        color: ${theme.colors.light};
+        background: ${theme.colors.light};
+        color: ${theme.colors.primary};
 
         border-radius: 1.2rem;
         border: 0.1rem solid transparent;
@@ -55,8 +55,8 @@ export const Container = styled.div`
 
         &:hover{
           background: transparent;
-          border: 0.1rem solid ${theme.colors.primary};
-          color: ${theme.colors.primary};
+          border: 0.1rem solid ${theme.colors.gray200};
+          color: ${theme.colors.gray200};
         }
       `}
     }

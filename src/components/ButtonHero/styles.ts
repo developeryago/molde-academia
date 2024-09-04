@@ -12,9 +12,9 @@ export const Container = styled.a<ButtonProps>`
     font-size: var(--base);
     font-weight: 700;
     text-transform: uppercase;
-    background: ${border ? theme.colors.light : 'transparent'};
+    background: ${border ? theme.colors.light : theme.colors.primary};
     border: ${border ? `0.1rem solid transparent` : `0.1rem solid ${theme.colors.primary}`} ;
-    color: ${border ? theme.colors.primary : theme.colors.primary};
+    color: ${border ? theme.colors.light100 : theme.colors.light100};
 
     border-radius: 1.2rem;
     border: ${border ? `0.1rem solid ${theme.colors.primary}` : `0.1rem solid transparent`} ;
@@ -23,12 +23,12 @@ export const Container = styled.a<ButtonProps>`
     z-index: 10;
 
     &:hover{
-      background: ${border ? theme.colors.gray200 : 'transparent'};
-      border: ${border ? `0.1rem solid transparent` : `0.1rem solid ${theme.colors.gray200}`} ;
-      color: ${border ? theme.colors.primary : theme.colors.gray200};
+      background: ${border ? theme.colors.light : theme.colors.light100};
+      border: ${border ? `0.1rem solid transparent` : `0.1rem solid ${theme.colors.primary}`} ;
+      color: ${border ? theme.colors.primary : theme.colors.primary};
     }
   `}
 `;
 
-
-
+// border: ${border ? `0.1rem solid ${theme.colors.primary}` : `0.1rem solid transparent`}
+// border: ${border ? `0.1rem solid ${theme.colors.primary}` : `0.1rem solid transparent`} ;

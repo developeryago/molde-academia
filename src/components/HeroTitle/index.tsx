@@ -1,4 +1,4 @@
-import { Button } from '../Button';
+import { ButtonHero } from '../ButtonHero';
 import { Container, ButtonContainer, TitleContainer } from './styles';
 
 const HeroTitle = () => {
@@ -12,7 +12,7 @@ const HeroTitle = () => {
         </h1>
         
         <ButtonContainer>
-          <Button href='#Service'>View more</Button>
+          <ButtonHero href='#Service'>View more</ButtonHero>
         </ButtonContainer>
       </TitleContainer>
     </Container>

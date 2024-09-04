@@ -1,6 +1,6 @@
 export const theme = {
   colors: {
-    primary: '#F1A007',
+    primary: '#EAEEF6',
     secondary: '#F1A007',
     light: '#00041F',
     light100: '#00041F',
@@ -10,12 +10,12 @@ export const theme = {
     gray200: '#787878',
     success: '#48FF2B',
     error: '#EA4444',
-    primaryGradient: 'linear-gradient(90deg, #09458D 50%, #04032B)',
-    secundaryGradient: 'linear-gradient(90deg, #09458D, #04032B 50%)',
+    primaryGradient: 'linear-gradient(90deg, #04032B 50%, #4C5A71)',
+    secundaryGradient: 'linear-gradient(90deg, #04032B, #04032B)',
   },
   // #09458D
   fonts: {
-    montserrat: `"Megabyte"`,
-    archivo: `'Lora', serif;`,
+    montserrat: `"Poppins", sans-serif`,
+    archivo: `"Poppins", sans-serif`,
   }
 }

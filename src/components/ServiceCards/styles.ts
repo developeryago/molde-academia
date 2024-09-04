@@ -19,7 +19,7 @@ export const TextContent = styled.div`
 
   h4{
     font-size: var(--2xl);
-    font-weight: 700;
+    font-weight: 600;
     color: ${({theme}) => theme.colors.primary};
   }
 
